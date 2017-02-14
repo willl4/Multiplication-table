@@ -26,8 +26,9 @@ height = int(input("Height of multiplication table: "))
 
 one=1
 while one <= height:
-    for i in range (1, width):
-        print(one*i)
+    for i in range (1, width+1):
+        print(str(one*i))
+    one=one+1
 
 
 
